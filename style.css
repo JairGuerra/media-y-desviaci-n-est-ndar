@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 30px;
+    background: #f9f9f9;
+    color: #333;
+}
+
+h1 {
+    color: #222;
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+.error {
+    color: #e74c3c;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: center;
+}
+
+form {
+    margin-top: 20px;
+    text-align: center;
+}
+
+input[type="text"] {
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    outline: none;
+    width: 250px;
+    font-size: 14px;
+    transition: border 0.3s;
+}
+
+input[type="text"]:focus {
+    border-color: #3498db;
+}
+
+button {
+    background-color: #3498db;
+    border: none;
+    color: white;
+    padding: 8px 14px;
+    margin: 0 5px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 60%;
+    background: white;
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+th {
+    background: #3498db;
+    color: white;
+    padding: 10px;
+}
+
+td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.resultado {
+    margin: 20px auto;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background: #ecf9ff;
+    width: 50%;
+    text-align: center;
+    font-size: 16px;
+}
+.paginacion {
+    margin: 20px auto;
+    text-align: center;
+}
+
+.paginacion a {
+    margin: 0 5px;
+    padding: 6px 10px;
+    border: 1px solid #3498db;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #3498db;
+    transition: 0.3s;
+}
+
+.paginacion a:hover {
+    background-color: #3498db;
+    color: white;
+}
+
+.paginacion strong {
+    margin: 0 5px;
+    padding: 6px 10px;
+    border-radius: 4px;
+    background-color: #3498db;
+    color: white;
+}
