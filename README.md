@@ -1,1 +1,1 @@
-# media-y-desviaci-n-est-ndar
+# media-y-desviacion-estandar
